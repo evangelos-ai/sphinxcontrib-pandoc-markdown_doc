@@ -1,3 +1,4 @@
 sphinxcontrib-pandoc-markdown
 nbsphinx
 sphinxcontrib-mermaid
+sphinx_fontawesome

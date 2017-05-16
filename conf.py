@@ -36,8 +36,8 @@ extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz', 'sphinxcontrib.mermaid']
 extensions += ['sphinx.ext.imgmath']
 
 todo_include_todos=True
-mermaid_output_format="png"
-mermaid_cmd = r"C:\Users\056-kusakabe-n\AppData\Roaming\npm\mermaid.cmd"
+# mermaid_output_format="png"
+# mermaid_cmd = r"C:\Users\056-kusakabe-n\AppData\Roaming\npm\mermaid.cmd"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

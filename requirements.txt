@@ -1,4 +1,4 @@
-sphinxcontrib-pandoc-markdown
+sphinxcontrib-pandoc-markdown>=1.6
 nbsphinx
 sphinxcontrib-mermaid
 sphinx_fontawesome

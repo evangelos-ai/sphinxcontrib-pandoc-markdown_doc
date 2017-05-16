@@ -1,0 +1,14 @@
+build_dir = "_build"
+project = "SphinxExplorer"
+source_dir = "."
+["Epub Settings"]
+epub_writing_mode = "vertical"
+["Python Interpreter".python]
+search_venv_path = []
+[apidoc.autodoc_default_flags]
+show-inheritance = true
+special-members = false
+private-members = false
+undoc-members = true
+members = true
+inherited-members = false

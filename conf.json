@@ -1,0 +1,8 @@
+{
+    "epub_writing_mode": "vertical",
+    "autodoc_default_flags": [
+        "show-inheritance",
+        "undoc-members",
+        "members"
+    ]
+}

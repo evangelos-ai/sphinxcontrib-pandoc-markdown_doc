@@ -1,2 +1,3 @@
 sphinxcontrib-pandoc-markdown
 nbsphinx
+sphinxcontrib-mermaid

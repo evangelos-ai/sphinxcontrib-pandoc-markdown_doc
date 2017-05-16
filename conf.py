@@ -32,8 +32,8 @@
 # ones.
 extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz', 'sphinxcontrib.mermaid']
 
-# extensions += ['sphinx.ext.mathjax']
-extensions += ['sphinx.ext.imgmath']
+extensions += ['sphinx.ext.mathjax']
+# extensions += ['sphinx.ext.imgmath']
 
 todo_include_todos=True
 # mermaid_output_format="png"

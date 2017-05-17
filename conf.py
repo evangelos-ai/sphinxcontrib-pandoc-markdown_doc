@@ -36,6 +36,10 @@ extensions += ['sphinx.ext.mathjax']
 # extensions += ['sphinx.ext.imgmath']
 
 todo_include_todos=True
+
+extensions += ['sphinxcontrib.plantuml']
+plantuml = 'java -jar ../utils/plantum.jar'
+
 # mermaid_output_format="png"
 # mermaid_cmd = r"C:\Users\056-kusakabe-n\AppData\Roaming\npm\mermaid.cmd"
 

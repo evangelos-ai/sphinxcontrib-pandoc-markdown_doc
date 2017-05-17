@@ -38,3 +38,9 @@ $ pip install sphinxcontrib-mermaid
 ```
 $ npm install -g mermaid-cli
 ```
+
+`conf.py`に以下の記述を追加してください。
+
+```python
+extensions += ['sphinxcontrib.mermaid']
+```

@@ -17,7 +17,7 @@ Sphinx独自拡張
   item uses two lines.
 ```
 
-## ノート、警告、TODO
+## ノート、警告、参照
 
 ````
 ```note
@@ -26,10 +26,6 @@ This is note.
 
 ```warning
 This is warning.
-```
-
-```todo
-This is todo.
 ```
 
 ```seealso
@@ -45,21 +41,41 @@ This is note.
 This is warning.
 ```
 
-```todo
-This is todo.
-```
-
 ```seealso
 This is seealso
 ```
 
-### TODOリスト
+
+## TODO
+
+````
+```todo
+This is todo.
+```
+````
+
+```todo
+This is todo.
+```
+
+#### TODOリスト
+
 ````
 ```todolist
 ```
 ````
 
 ```todolist
+```
+
+#### Sphinxの設定
+
+TODOを使用するには`conf.py`に以下の記述を追加してください。
+
+```python
+extensions += ['sphinx.ext.todo']
+
+todo_include_todos=True
 ```
 
 ## pull-quote、highlights

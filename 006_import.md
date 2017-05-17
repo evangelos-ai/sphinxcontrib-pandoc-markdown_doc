@@ -1,4 +1,4 @@
-# import
+# import構文
 
 マークダウンで外部ファイルをインポートする`@import`構文があります。
 
@@ -8,8 +8,6 @@
 ```
 
 @import "imports/thunder.png"
-@import "imports/thunder.png"
-テキストは回り込みます。
 
 ### CSVのインポート
 ````

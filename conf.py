@@ -30,7 +30,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz', 'sphinxcontrib.mermaid']
+extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz']
 
 extensions += ['sphinx.ext.mathjax']
 # extensions += ['sphinx.ext.imgmath']
@@ -39,9 +39,6 @@ todo_include_todos=True
 
 extensions += ['sphinxcontrib.plantuml']
 plantuml = 'java -jar ../utils/plantum.jar'
-
-# mermaid_output_format="png"
-# mermaid_cmd = r"C:\Users\056-kusakabe-n\AppData\Roaming\npm\mermaid.cmd"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

@@ -1,13 +1,7 @@
 mermaid.js
 =========
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+@import "_static/mermaid.png"
 
 ````
 ```mermaid

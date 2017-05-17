@@ -1,15 +1,31 @@
 # import
 
-@import "thunder.png"
+マークダウンで外部ファイルをインポートする`@import`構文があります。
 
-@import "book.csv"
+### 画像のインポート
+```
+ @import "imports/thunder.png"
+```
 
-@import "setup.py"
+@import "imports/thunder.png"
+@import "imports/thunder.png"
+テキストは回り込みます。
 
-@import "sample.c"
+### CSVのインポート
+````
+ @import "imports/book.csv"
+````
+@import "imports/book.csv"
 
-test templates
-fsdaf
+### 外部ファイルのインポート
+````
+ @import "imports/sample.py"
+````
 
+@import "imports/sample.py"
 
-fsdafsa
+````
+ @import "imports/sample.c"
+````
+
+@import "imports/sample.c"

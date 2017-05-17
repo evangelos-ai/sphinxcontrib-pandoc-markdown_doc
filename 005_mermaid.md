@@ -33,7 +33,7 @@ mermaid.jsを使用するには、Sphinx拡張の[sphinxcontrib-mermaid](https:/
 $ pip install sphinxcontrib-mermaid
 ```
 
-また、Windows環境の場合は[mermaid-cli](https://www.npmjs.com/package/mermaid-cli)をインストールしましょう。
+また、pngやsvgなどの出力形式に対応したい場合は[mermaid-cli](https://www.npmjs.com/package/mermaid-cli)が必要です。
 
 ```
 $ npm install -g mermaid-cli

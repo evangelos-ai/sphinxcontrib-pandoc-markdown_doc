@@ -16,7 +16,6 @@ Welcome to sphinxcontrib-pandoc-markdown's documentation!
    004_graphviz
    005_mermaid
    006_import
-   burretlist
    bugs
 
 

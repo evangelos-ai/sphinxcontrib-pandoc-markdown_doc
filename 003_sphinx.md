@@ -53,6 +53,15 @@ This is todo.
 This is seealso
 ```
 
+### TODOリスト
+````
+```todolist
+```
+````
+
+```todolist
+```
+
 ## pull-quote、highlights
 
 ````
@@ -83,16 +92,6 @@ This is highlights
 -- 映画「ドラゴン怒りの鉄拳」より
 ```
 ````
-
-
-````
-```epigraph
-考えるな、感じろ ”Don't think. Feel!”
-
--- 映画「ドラゴン怒りの鉄拳」より
-```
-````
-
 
 ```epigraph
 考えるな、感じろ ”Don't think. Feel!”

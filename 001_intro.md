@@ -15,7 +15,7 @@ sphinxでマークダウンを扱う場合、`recommonmark`を使う方法があ
 
 ## インストール
 
-```
+```console
 $ pip install sphinxcontrib-pandoc-markdown
 ```
 
@@ -24,3 +24,4 @@ $ pip install sphinxcontrib-pandoc-markdown
 - [pandoc](http://pandoc.org/)
 - graphviz (グラフ機能を使う場合)
 - PlantUML (UML機能を使う場合)
+- mermaid-cli (mermaidでHTML以外のビルダーを使う場合)

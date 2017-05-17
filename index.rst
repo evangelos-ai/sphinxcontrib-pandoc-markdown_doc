@@ -9,9 +9,14 @@ Welcome to SphinxExplorer's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   :glob:
 
-   00*
+   001_intro
+   002_markdown
+   003_sphinx
+   004_graphviz
+   005_mermaid
+   006_import
+   burretlist
    bugs
 
 

@@ -31,6 +31,10 @@ This is warning.
 ```todo
 This is todo.
 ```
+
+```seealso
+This is seealso
+```
 ````
 
 ```note
@@ -51,15 +55,36 @@ This is seealso
 
 ## pull-quote、highlights
 
+````
 ```pull-quote
 This is pull-quote
 ```
+````
+
+```pull-quote
+This is pull-quote
+```
+
+````
+```highlights
+This is highlights
+```
+````
 
 ```highlights
 This is highlights
 ```
 
 ## epigraph
+
+````
+```epigraph
+考えるな、感じろ ”Don't think. Feel!”
+
+-- 映画「ドラゴン怒りの鉄拳」より
+```
+````
+
 
 ```epigraph
 考えるな、感じろ ”Don't think. Feel!”

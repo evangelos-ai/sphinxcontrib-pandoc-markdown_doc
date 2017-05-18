@@ -27,3 +27,22 @@
 ````
 
 @import "imports/sample.c"
+
+
+````
+ @import "imports/graphviz.viz"
+````
+
+@import "imports/graphviz.viz"
+
+````
+ @import "imports/mermaid.mmd"
+````
+
+@import "imports/mermaid.mmd"
+
+````
+ @import "imports/wavedrom.wavedrom"
+````
+
+@import "imports/wavedrom.wavedrom"

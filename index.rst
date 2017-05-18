@@ -15,8 +15,9 @@ Welcome to sphinxcontrib-pandoc-markdown's documentation!
    003_sphinx
    004_graphviz
    005_mermaid
-   006_import
+   wavedrom
    plantuml
+   006_import
    bugs
 
 

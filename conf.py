@@ -20,7 +20,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -32,13 +31,29 @@
 # ones.
 extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz']
 
-extensions += ['sphinx.ext.mathjax']
+if __buildername__ == "epub":
+    extensions += ['sphinx.ext.imgmath']
+else:
+    extensions += ['sphinx.ext.mathjax']
+
+extensions += ['sphinxcontrib.wavedrom']
+
+extensions += ['sphinxcontrib.mermaid']
+if __buildername__ == "epub":
+    import os
+    mermaid_output_format = "png"
+    mermaid_cmd = os.path.abspath("../../node_modules/.bin/mermaid.cmd")
+
+
 # extensions += ['sphinx.ext.imgmath']
 
 todo_include_todos=True
 
+import os
 extensions += ['sphinxcontrib.plantuml']
-plantuml = 'java -jar ../utils/plantum.jar'
+path = os.path.abspath("../utils/plantuml.jar")
+path = path.replace("\\", "/")
+plantuml = 'java -jar {}'.format(path)
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

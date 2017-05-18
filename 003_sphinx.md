@@ -23,28 +23,31 @@ Sphinx独自拡張
 ```note
 This is note.
 ```
-
-```warning
-This is warning.
-```
-
-```seealso
-This is seealso
-```
 ````
 
 ```note
 This is note.
 ```
 
+````
+```warning
+This is warning.
+```
+````
+
 ```warning
 This is warning.
 ```
 
+````
 ```seealso
 This is seealso
 ```
+````
 
+```seealso
+This is seealso
+```
 
 ## TODO
 

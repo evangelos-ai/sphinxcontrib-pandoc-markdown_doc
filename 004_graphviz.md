@@ -63,6 +63,8 @@ digraph G {
 ```
 ````
 
+### Sphinxの設定
+
 [Graphviz](http://www.graphviz.org/)を使用するには、`conf.py`に以下のコードを追加する必要があります。
 
 ``` python

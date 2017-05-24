@@ -31,6 +31,7 @@
 # ones.
 extensions = ['sphinx.ext.todo', 'sphinx.ext.graphviz']
 
+__buildername__ = "html
 if __buildername__ == "epub":
     extensions += ['sphinx.ext.imgmath']
 else:

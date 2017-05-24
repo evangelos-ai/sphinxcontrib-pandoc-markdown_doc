@@ -4,3 +4,4 @@ sphinxcontrib-mermaid
 sphinxcontrib-plantuml
 sphinx_fontawesome
 sphinxcontrib-blockdiag
+sphinxcontrib-wavedrom
